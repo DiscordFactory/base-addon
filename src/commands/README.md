@@ -10,7 +10,7 @@ import Addon from '../index'
   prefix: 'called prefix', 👈 // for exemple 'migration:rollback'
   usages: []
 })
-export default class DownMigration extends BaseAddonCommand<Addon> {
+export default class Myommand extends BaseAddonCommand<Addon> {
   public async run (): Promise<void> {
     // Your code here
   }
